@@ -1,0 +1,38 @@
+.card{
+    border-radius:0;
+    max-width: 350px;
+    
+    
+}
+.card-image{
+    border-radius: 0;
+}
+
+.projects-cards h3{
+    font-size: var(--h3-40);
+    font-weight: bold;
+    padding-bottom: 50px;
+    color: var(--grey-dark);
+}
+
+.card-content{
+    border-radius:0px;
+
+
+    
+}
+
+.media-content p{
+    color:var(--grey-dark);
+    font-size: var(--h4-bold-24);
+}
+
+.content{
+    color:var(--grey);
+    font-size: var(--headline-17) ;
+}
+
+.content a{
+    color:var(--blue-intense);
+    font-weight: bold;
+}

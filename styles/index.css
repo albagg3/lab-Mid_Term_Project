@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@300&family=Roboto:wght@100;300;400&display=swap');
+
+@import "https://cdn.jsdelivr.net/npm/bulma@0.9.4/css/bulma.min.css";
+@import "./nav-bar.css";
+@import "./first-section.css";
+@import "./company-logos.css";
+@import "./cards.css";
+
+
+:root{
+
+/*  COLORS */
+--blue-intense:  #072ac8;
+--blue-sky:  #43d2ff;
+--blue-light:  #a2d6f9;
+--blue-lighter:  #d1edff;
+--grey-dark:  #292e47;
+--grey:  #6b708d;
+--grey-light:  #f2f4fc;
+--grey-lighter:  #ecf7ff;
+--yellow:  #ffc600;
+
+/*  FONTS-SIZE */
+--h1: 4.6em;
+--h2-50: 3.84em;
+--h3-40:3.07em;
+--h4-bold-24:1.8em;
+--body-intro-20:1.54em;
+--headline-17:1.3em; 
+--caption1-15:1.15em; 
+
+}
+
+body {
+    font-family: Roboto;
+    font-size: 13px;
+    background-color:var(--grey-light) ;
+    margin: 0;
+    min-height: 100vh
+    /* width: 80%;
+    display:flex;
+    justify-content: center; */
+
+}

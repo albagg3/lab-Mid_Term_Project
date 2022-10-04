@@ -1,0 +1,38 @@
+
+
+.square-buttons{
+    border-radius: 0px;
+    background-color:var(--blue-intense) !important;
+    color:#fff;
+    padding: 25px 40px
+}
+
+.navbar{
+    background-color: red !important;   
+    background-color: var(--grey-light);
+    display: flex;
+    justify-content: space-between;
+    padding-top: 70px;
+    width:200%;
+}
+
+.nav-center{
+    display: flex;
+    justify-content: center;
+}
+
+.navbar-item img{
+    
+    background-color: blue;
+}
+
+.navbar-item{
+    color: #7C809B;
+    font-size: var(--headline-bold-17);
+    font-weight: bold;
+}
+
+.navbar-item:hover{
+    color: var(--blue-intense);
+}
+

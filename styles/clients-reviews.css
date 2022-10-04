@@ -1,0 +1,41 @@
+.testimony{
+    /* background-image: url(./images/testimonial-section/orbit.png); */
+    background-color: rgb(174, 26, 26);
+    width: 100%;
+    
+}
+.grey-background{
+    background-color: rgb(234, 15, 15);
+    width: 100%;
+    
+}
+.grey-background img{
+    /* opacity: 0.5; */
+   
+
+}
+
+
+.abs3{
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.abs4{
+    position: absolute;
+    top:0;
+    right:0;
+}
+
+.abs5{
+    position: absolute;
+    bottom:0;
+    right:0;
+}
+
+.abs6{
+    position: absolute;
+    bottom:0;
+    left:0;
+}

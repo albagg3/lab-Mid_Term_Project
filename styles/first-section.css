@@ -1,0 +1,62 @@
+
+
+.img-text-introduction{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:100px 0;
+}
+
+.first-sect-text {
+    width:500px
+}
+
+.first-sect-text h1{
+    font-size:var(--h1);
+    font-weight: bold;
+    color: var(--grey-dark);
+}
+.first-sect-text p{
+    font-size:var(--body-intro-20);
+    
+}
+
+.btn-info{
+    display: flex;
+    justify-content:flex-start;
+    padding: 50px 0px;
+}
+
+.navbar-item.btn-see-our-work{
+    padding-left: 0;
+    color:var(--grey)
+}
+
+.rel{
+    position: relative;
+}
+
+.img-person{
+    height: 650px;
+    
+}
+
+.abs1{
+    position: absolute;
+    top:30px;
+    left:-120px;
+}
+
+.abs2{
+    position: absolute;
+    bottom:-150px;
+    right:-120px;
+}
+
+.card-img{
+    height: 300px;
+}
+
+.thumb-img{
+    height: 300px;
+}
