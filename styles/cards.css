@@ -1,6 +1,7 @@
 .card{
     border-radius:0;
     max-width: 350px;
+    height:100%;
     
     
 }
@@ -17,8 +18,9 @@
 
 .card-content{
     border-radius:0px;
-
-
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
     
 }
 

@@ -1,0 +1,30 @@
+.blue-circle{
+    height: 80px;
+    aspect-ratio: 1;
+    background-color:#ECF7FF;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:10%;
+    
+    
+}
+
+.icon {
+    width:100%;
+
+}
+
+
+
+.cards2{
+    padding:30px;
+    
+}
+
+.card-content{  
+   display: flex;
+   background-color: red;
+}
+

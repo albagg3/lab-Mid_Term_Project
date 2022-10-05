@@ -1,0 +1,39 @@
+
+
+.my-footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 50px;
+    background-color: red;
+}
+
+.links-footer a{
+    padding: 0 50px;
+    color: var(--blue-intense);
+    font-size: 1.3em;
+ 
+}
+
+.address{
+    font-size: 1.3em;
+    padding:10px
+}
+
+
+/* .first-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom:20px
+}
+.first-line a, .second-line a{
+    padding: 50px;
+    color: var(--blue-intense);
+    font-size: 1.3em;
+}
+.second-line{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */

@@ -10,10 +10,10 @@
 </head>
 
 <body>
-<!-- BARRA DE NAVEGACION -->
+  <!-- BARRA DE NAVEGACION -->
   <nav class="navbar container" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item" href="https://bulma.io">
+      <a class="navbar-item logo" href="">
         <img src="./images/logos/circle.svg" width="60">
       </a>
       <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
@@ -26,26 +26,26 @@
       <a class="navbar-item">
         Home
       </a>
-      <a class="navbar-item">
+      <a class="navbar-item" >
         Projects
       </a>
-      <a class="navbar-item">
+      <a class="navbar-item" >
         Services
       </a>
     </div>
     <div class="navbar-button">
       <div class="buttons">
-        <a class="button is-primary square-buttons">
+        <a class="button is-primary square-buttons" href="./contact_page.html">
           <span>Contact Us</span>
         </a>
       </div>
     </div>
   </nav>
-<!-- PRIMERA SECCIÓN DE INFO -->
+  <!-- PRIMERA SECCIÓN DE INFO -->
   <section class="img-text-introduction container">
     <div class="first-sect-text">
       <h1>Empower Your Business With Stunning Design!</h1>
-      <p>Circle is a digital design and development studio.
+      <p>Circle is a digital design and development studio.<br>
         We design and develop astonishing websites and mobile apps</p>
       <div class="btn-info">
         <a class="navbar-item btn-see-our-work">
@@ -64,7 +64,7 @@
       </div>
     </div>
   </section>
-<!-- LOGOS EMPRESAS -->
+  <!-- LOGOS EMPRESAS -->
   <section class="container company-imgs">
     <img src="./images/logos/airbnb-logo.svg" alt="airbnb-logo">
     <img src="./images/logos/google-logo.svg" alt="google-logo">
@@ -72,7 +72,7 @@
     <img src="./images/logos/fedex-logo.svg" alt="fedex-logo">
     <img src="./images/logos/amazon-logo.svg" alt="amazon-logo">
   </section>
-<!--CARDS CON IMAGENES-->
+  <!--CARDS CON IMAGENES-->
   <section class="container projects-cards">
     <h3>Recent Projects</h3>
     <div class="columns">
@@ -138,27 +138,172 @@
       </div>
     </div>
   </section>
-<!--IMAGEN CON STICKERS Y TEXTO -->
-  <section class="testimony">
-    <div class="rel grey-background ">
-      <!-- <img src="./images/testimonial-section/orbit.png" alt="orbit"> -->
-      <div class="abs3">
+  <!--IMAGEN CON STICKERS Y TEXTO -->
+  <section class="testimony rel">
+    <!-- <img src="./images/testimonial-section/orbit.png" alt="orbit"> -->
+    <div class="rel container-testimonial ">
+
+      <div>
+        <h3>Hear What Our Clients Have to Say</h3>
+      </div>
+      <div>
+        <p>"Circle helped us through every stage of our startup. <br>We really enjoyed working with you</p>
+      </div>
+      <div class="profile">
+        <div class="circular--img">
+          <img src="./images/testimonial-section/profile.png" alt="">
+        </div>
+        <div class="profile-info">
+          <span class="profile-name">Kristin Watson</span>
+          <span class="profile-source">Booking.com</span>
+        </div>
+      </div>
+
+
+      <div class="abs3 sticker-size">
         <img src="./images/testimonial-section/memoji-1.png" alt="blond-girl-sticker">
       </div>
-      <div class="abs4">
+      <div class="abs4 sticker-size">
         <img src="./images/testimonial-section/memoji-4.png" alt="braids-girl-sticker">
       </div>
-      <div class="abs5">
+      <div class="abs5 sticker-size">
         <img src="./images/testimonial-section/memoji-3.png" alt="beird-boy-sticker">
       </div>
-      <div class="abs6">
+      <div class="abs6 sticker-size">
         <img src="./images/testimonial-section/memoji-2.png" alt="boy-cup-sticker">
       </div>
     </div>
   </section>
-<!--CARDS CON ICONOS-->
-<!--FORM CON PREGUNTAS-->
-<!--FOOTER-->
+  <!--CARDS CON ICONOS-->
+  <section class="container projects-cards">
+    <h3>Our Services</h3>
+    <div class="columns">
+      <div class="column">
+        <div class="card cards2">
+          <div class="blue-circle">
+            <figure class="icon">
+              <img src="./images/services-section/icons/1.svg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">User Interface Design</p>
+              </div>
+            </div>
+            <div class="content">
+              Circle provides you with a stunning user interface design that is accessible to everyone.
+              <br>
+              <a>Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card cards2">
+          <div class="blue-circle">
+            <figure class="icon">
+              <img src="./images/services-section/icons/2.svg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">User Experience Design</p>
+              </div>
+            </div>
+            <div class="content">
+              Circle always focuses on delivering the best user experience to your customers
+              <br>
+              <a>Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="column">
+        <div class="card cards2">
+          <div class="blue-circle">
+            <figure class="icon">
+              <img src="./images/services-section/icons/3.svg" alt="Placeholder image">
+            </figure>
+          </div>
+          <div class="card-content">
+            <div class="media">
+              <div class="media-content">
+                <p class="title is-4">Application Development</p>
+              </div>
+            </div>
+            <div class="content">
+              We develop high-quality mobile and web applications using the latest technology stack.
+              <br>
+              <a>Learn more</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--FORM CON PREGUNTAS-->
+  <section class="testimony">
+    <div class="container-form ">
+
+      <div>
+        <h3>Do you have any questions?</h3>
+      </div>
+      <div>
+        <p>Let us help you!</p>
+      </div>
+      <div>
+        <form action="">
+          <div class="rel">
+            <div class="abs7">
+              <img src="./images/newsletter/icon/mail.svg" alt="envelope">
+            </div>
+            <input type="text" name="" id="" placeholder="Enter your email ">
+            <button class="square-buttons subscribe">Subscribe</button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </section>
+  <!--FOOTER-->
+  <footer class="my-footer container">
+
+    <!-- <div class="first-line">
+      <img src="./images/logos/circle.svg" alt="circle-logo">
+      <div>
+        <a href="">Team</a>
+        <a href="">Services</a>
+        <a href="">About Us</a>
+      </div>
+    </div>
+
+    <div class="second-line">
+      <p>2972 Westheimer Rd. Santa Ana,<br> Illinois 85486 </p>
+      <div>
+        <a href="">Press</a>
+        <a href="">Projects</a>
+        <a href="">Privacy Policy</a>
+      </div>
+    </div> -->
+    <div>
+      <img src="./images/logos/circle.svg" alt="circle-logo"><br>
+      <p class="address">2972 Westheimer Rd. Santa Ana,<br> Illinois 85486 </p>
+    </div>
+    <div class="links-footer">
+        <div class="first-line">
+          <a href="">Team</a>
+          <a href="">Services</a>
+          <a href="">About Us</a>
+        </div>
+        <div class="second-line">
+          <a href="">Press</a>
+          <a href="">Projects</a>
+          <a href="">Privacy Policy</a>
+        </div>
+    </div>
+  </footer>
 </body>
 
 </html>

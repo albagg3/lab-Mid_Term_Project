@@ -1,0 +1,47 @@
+.container-form{
+    background-color:var(--yellow);
+    height: 422px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index:0;
+    text-align: center;
+    margin-top: 200px;
+}
+
+.container-form h3{
+    font-size: var(--h3-40);
+    font-weight: bold;
+    padding-bottom: 20px;
+    color: var(--grey-dark);
+}
+
+.container-form p{
+    padding-bottom: 20px;
+    color: var(--grey);
+    font-size: 1.3em;
+}
+
+.square-buttons.subscribe{
+    border:none;
+    font-size: 1.3em;
+}
+
+
+.testimony input{
+    padding:30px;
+    border: 1px solid var(--grey-light);
+    padding-left: 60px;
+    margin:10px;
+ 
+}
+
+.abs7{
+    position: absolute;
+    top:35%;
+    left:5%;
+}
+
+
+

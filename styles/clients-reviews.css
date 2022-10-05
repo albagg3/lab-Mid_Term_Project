@@ -1,41 +1,111 @@
-.testimony{
-    /* background-image: url(./images/testimonial-section/orbit.png); */
-    background-color: rgb(174, 26, 26);
-    width: 100%;
-    
-}
-.grey-background{
-    background-color: rgb(234, 15, 15);
-    width: 100%;
-    
-}
-.grey-background img{
-    /* opacity: 0.5; */
-   
-
-}
-
 
 .abs3{
     position: absolute;
-    top:0;
-    left:0;
+    top:8%;
+    left:10%;
 }
 
 .abs4{
     position: absolute;
-    top:0;
-    right:0;
+    top:8%;
+    right:10%;
 }
 
 .abs5{
     position: absolute;
-    bottom:0;
-    right:0;
+    bottom:8%;
+    right:10%;
 }
 
 .abs6{
     position: absolute;
-    bottom:0;
-    left:0;
+    bottom:8%;
+    left:10%;
 }
+
+
+
+.text-testimonial{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+
+.circular--img {
+    display: inline-block;
+    position: relative;
+    width: 50px;
+    height: 50px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.circular--img img {
+    width: auto;
+    height: 100%;
+}
+
+.container-testimonial{
+    background-color:var(--grey-dark); 
+    background-image: url(../images/testimonial-section/orbit.png);
+    background-size:contain;
+    background-repeat: repeat-y;
+    height: 622px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    
+    text-align: center;
+    
+}
+
+.sticker-size img{
+    width:150px;
+  
+}
+.testimony{    
+    margin: 150px 300px;
+}
+.testimony > img{
+    object-fit: contain;
+    /* background-size:cover;
+    background-position:center; */
+    position: absolute;
+   
+}
+
+.testimony h3{
+    color:#F4F6FC;
+    font-size:var(--h3-40);
+    font-weight: bold;
+}
+
+.testimony p{
+    color:var(--yellow);
+    font-size: 1.8em;
+    font-weight: bold;
+}
+
+.profile{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width:200px
+}
+
+.profile-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-name{
+    color:var(--blue-light);
+    font-size:1.3em;
+}
+.profile-source{
+    color:#F4F6FC;
+}
+
+

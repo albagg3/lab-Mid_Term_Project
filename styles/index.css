@@ -5,6 +5,14 @@
 @import "./first-section.css";
 @import "./company-logos.css";
 @import "./cards.css";
+@import "./clients-reviews.css";
+@import "./cards2.css";
+@import "./yellowForm.css";
+@import "./footer.css";
+
+@import "./mediaquery.css";
+
+
 
 
 :root{
@@ -23,11 +31,11 @@
 /*  FONTS-SIZE */
 --h1: 4.6em;
 --h2-50: 3.84em;
---h3-40:3.07em;
---h4-bold-24:1.8em;
---body-intro-20:1.54em;
---headline-17:1.3em; 
---caption1-15:1.15em; 
+--h3-40: 3.07em;
+--h4bold24: 1.8em;
+--body-intro-20: 1.54em;
+--headline-17: 1.3em; 
+--caption1-15: 1.15em; 
 
 }
 
