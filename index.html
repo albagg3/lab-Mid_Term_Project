@@ -26,10 +26,10 @@
       <a class="navbar-item">
         Home
       </a>
-      <a class="navbar-item" >
+      <a class="navbar-item">
         Projects
       </a>
-      <a class="navbar-item" >
+      <a class="navbar-item">
         Services
       </a>
     </div>
@@ -65,18 +65,30 @@
     </div>
   </section>
   <!-- LOGOS EMPRESAS -->
-  <section class="container company-imgs">
-    <img src="./images/logos/airbnb-logo.svg" alt="airbnb-logo">
-    <img src="./images/logos/google-logo.svg" alt="google-logo">
-    <img src="./images/logos/microsoft-logo.svg" alt="microsoft-logo">
-    <img src="./images/logos/fedex-logo.svg" alt="fedex-logo">
-    <img src="./images/logos/amazon-logo.svg" alt="amazon-logo">
+  <section class="container company-imgs flex-mobile ">
+    <div class="columns is-multiline is-mobile ">
+      <div class="column is-6-mobile">
+        <img src="./images/logos/airbnb-logo.svg" alt="airbnb-logo">
+      </div>
+      <div class="column is-6-mobile">
+        <img src="./images/logos/google-logo.svg" alt="google-logo">
+      </div>
+      <div class="column is-6-mobile">
+        <img src="./images/logos/microsoft-logo.svg" alt="microsoft-logo">
+      </div>
+      <div class="column is-6-mobile">
+        <img src="./images/logos/fedex-logo.svg" alt="fedex-logo">
+      </div>
+      <div class="column is-6-mobile">
+        <img class="amazon-logo" src="./images/logos/amazon-logo.svg" alt="amazon-logo">
+      </div>
+    </div>
   </section>
   <!--CARDS CON IMAGENES-->
   <section class="container projects-cards">
     <h3>Recent Projects</h3>
-    <div class="columns">
-      <div class="column">
+    <div class="columns is-multiline is-centered">
+      <div class="column is-12-mobile is-4-desktop is-4">
         <div class="card">
           <figure class="image is-4by3">
             <img src="./images/projects-section/1.jpg" alt="Placeholder image">
@@ -91,7 +103,7 @@
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Phasellus nec iaculis mauris.
               <br>
-              <a>Learn more</a>
+              <a href="./project_page.html">Learn more</a>
             </div>
           </div>
         </div>
@@ -140,7 +152,7 @@
   </section>
   <!--IMAGEN CON STICKERS Y TEXTO -->
   <section class="testimony rel">
-    <!-- <img src="./images/testimonial-section/orbit.png" alt="orbit"> -->
+
     <div class="rel container-testimonial ">
 
       <div>
@@ -178,7 +190,7 @@
   <section class="container projects-cards">
     <h3>Our Services</h3>
     <div class="columns">
-      <div class="column">
+      <div class="column service-column">
         <div class="card cards2">
           <div class="blue-circle">
             <figure class="icon">
@@ -193,9 +205,10 @@
             </div>
             <div class="content">
               Circle provides you with a stunning user interface design that is accessible to everyone.
-              <br>
-              <a>Learn more</a>
             </div>
+
+            <br>
+            <a>Learn more</a>
           </div>
         </div>
       </div>
@@ -214,9 +227,9 @@
             </div>
             <div class="content">
               Circle always focuses on delivering the best user experience to your customers
-              <br>
-              <a>Learn more</a>
             </div>
+            <br>
+            <a>Learn more</a>
           </div>
         </div>
       </div>
@@ -235,9 +248,9 @@
             </div>
             <div class="content">
               We develop high-quality mobile and web applications using the latest technology stack.
-              <br>
-              <a>Learn more</a>
             </div>
+            <br>
+            <a>Learn more</a>
           </div>
         </div>
       </div>
@@ -256,7 +269,7 @@
       </div>
       <div>
         <form action="">
-          <div class="rel">
+          <div class="rel ">
             <div class="abs7">
               <img src="./images/newsletter/icon/mail.svg" alt="envelope">
             </div>
@@ -269,39 +282,25 @@
   </section>
   <!--FOOTER-->
   <footer class="my-footer container">
-
-    <!-- <div class="first-line">
-      <img src="./images/logos/circle.svg" alt="circle-logo">
-      <div>
-        <a href="">Team</a>
-        <a href="">Services</a>
-        <a href="">About Us</a>
+    <div class="footer-flex">
+      <div class="address-img">
+        <img src="./images/logos/circle.svg" alt="circle-logo"><br>
+        <p class="address">2972 Westheimer Rd. Santa Ana,<br> Illinois 85486 </p>
       </div>
-    </div>
-
-    <div class="second-line">
-      <p>2972 Westheimer Rd. Santa Ana,<br> Illinois 85486 </p>
-      <div>
-        <a href="">Press</a>
-        <a href="">Projects</a>
-        <a href="">Privacy Policy</a>
-      </div>
-    </div> -->
-    <div>
-      <img src="./images/logos/circle.svg" alt="circle-logo"><br>
-      <p class="address">2972 Westheimer Rd. Santa Ana,<br> Illinois 85486 </p>
-    </div>
-    <div class="links-footer">
-        <div class="first-line">
+      <div class="footer-links">
+        <div class="f-link-1">
           <a href="">Team</a>
-          <a href="">Services</a>
-          <a href="">About Us</a>
-        </div>
-        <div class="second-line">
           <a href="">Press</a>
+        </div>
+        <div class="f-link-1">
+          <a href="">Services</a>
           <a href="">Projects</a>
+        </div>
+        <div class="f-link-1">
+          <a href="">About Us</a>
           <a href="">Privacy Policy</a>
         </div>
+      </div>
     </div>
   </footer>
 </body>

@@ -1,39 +1,35 @@
 
 
-.my-footer{
+.footer-flex{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-bottom: 50px;
-    background-color: red;
-}
+    align-items:center;
+    padding: 50px 0;
 
-.links-footer a{
-    padding: 0 50px;
-    color: var(--blue-intense);
+}
+.address-img p{
     font-size: 1.3em;
- 
+    padding: 10px 0;
 }
-
-.address{
-    font-size: 1.3em;
-    padding:10px
+.address-img img{
+    height: 30px;
+    
 }
-
-
-/* .first-line{
+.footer-links{
     display: flex;
     justify-content: space-between;
-    align-items: center;
-    padding-bottom:20px
+
 }
-.first-line a, .second-line a{
-    padding: 50px;
-    color: var(--blue-intense);
-    font-size: 1.3em;
-}
-.second-line{
+
+.f-link-1{
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-} */
+    flex-direction: column;
+    padding: 30px;
+    
+}
+
+.f-link-1 a{
+    font-size: 1.3em;
+    color:var(--blue-intense);
+    padding:10px 0A;
+}

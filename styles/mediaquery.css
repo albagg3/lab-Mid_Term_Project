@@ -1,26 +1,4 @@
-@media screen and (min-width: 1024px) {
-    .container {
-      max-width: 960px;
-    }
-  }
-  
-  @media screen and (max-width: 1215px) {
-    .container.is-widescreen:not(.is-max-desktop) {
-      max-width: 1152px;
-    }
-  }
-  
-  @media screen and (max-width: 1407px) {
-    .container.is-fullhd:not(.is-max-desktop):not(.is-max-widescreen) {
-      max-width: 1344px;
-    }
-  }
-  
-  @media screen and (min-width: 1216px) {
-    .container:not(.is-max-desktop) {
-      max-width: 1152px;
-    }
-  }
+
   
   @media screen and (min-width: 1408px) {
     .container:not(.is-max-desktop):not(.is-max-widescreen) {
@@ -28,3 +6,173 @@
       max-width: 1100px;
     }
   }
+
+  @media screen and (max-width: 820px) {
+    .nav-center, .navbar-button, .card-img, .thumb-img, .amazon-logo, .sticker-size{
+      display: none;
+    }
+    
+    /* NAVBAR */
+    .navbar{
+      padding-top:5px;
+      padding-left:5%;
+      padding-right:5%;
+      position:relative;
+    }
+    .navbar-burger{
+      position:absolute;
+      top:5px;
+      right: 5px;
+    }
+
+
+    .first-sect-text h1{
+      font-size:2.4em;
+      padding-left:10%;
+      padding-right:10%;
+      
+  }
+    /* FIRST SECTION */
+
+    .img-text-introduction.container{
+      
+      padding:30px 0;
+  }
+
+    .img-person{
+      padding-left: 20px;
+      padding-right: 20px;
+    }
+    .img-text-introduction{
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+      text-align: center;
+      align-items: center;
+      padding:100px 0;
+    }
+    
+    .btn-info{
+      display: flex;
+      flex-direction: column-reverse;
+      align-items:  center;
+    }
+    .square-buttons{
+    width:calc(100% - 80px)
+  }
+  
+
+    .navbar-item.btn-see-our-work{
+      padding-left: 20px;
+    }
+
+    .first-sect-text p{
+    padding:10px;
+      
+  }
+
+/* LOGOS */
+
+.company-imgs{
+  padding: 50px 0;
+  
+}
+
+/* CARDS */
+
+    .card{
+    max-width: 100%;
+    margin:5%;
+  }
+
+  .projects-cards h3{
+    font-size:2.2em;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-bottom: 0px;
+    color: var(--grey-dark);
+    text-align: center;
+}
+
+/* TESTIMONIOS */
+    .container-testimonial{
+      background-color:var(--grey-dark); 
+      width:100%;
+      background-image: none;
+      background-size:contain;
+      background-repeat: repeat-y;
+      height: 622px;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      align-items: center;
+      
+      text-align: center;
+      
+  }
+
+  /* FORMULARIO */
+  .container-form{
+    margin-top:10px;
+  }
+
+  .abs7{
+    position: absolute;
+    top:20%;
+    left:12%;
+  }
+  .testimony{    
+    margin: 0;
+  }
+
+  .testimony input{
+    padding-left: 60px;
+    width:calc(100% - 60px);
+}
+
+  .square-buttons.subscribe{
+    border:none;
+    font-size: 1.3em;
+    width:calc(100% - 60px);
+  }
+
+
+/* FOOTER */
+  .footer-flex{
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    
+    }
+
+
+    .address-img{
+      display: flex;
+      flex-direction: column;
+      align-items:center;
+    }
+
+    /* HTML CONTACT US */
+
+    .two-fields{
+      display:flex;
+      flex-direction: column;
+  }
+    .phone{
+      margin:0px;
+    }
+    .my-form{
+      width:calc(100% - 20px)
+    }
+    
+        
+  }
+
+
+
+/* esto para tablet
+  .btn-info{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: center;
+  } */

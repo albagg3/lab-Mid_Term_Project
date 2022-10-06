@@ -1,3 +1,8 @@
+
+.service-column{
+    min-height:330px;
+}
+
 .card{
     border-radius:0;
     max-width: 350px;
@@ -20,9 +25,15 @@
     border-radius:0px;
     display:flex;
     flex-direction: column;
-    justify-content: space-around;
+    /* justify-content: space-between; */
     
 }
+
+.card-content{  
+    display: flex;
+    justify-content: stretch;
+    min-height:250px;
+ }
 
 .media-content p{
     color:var(--grey-dark);
@@ -32,6 +43,7 @@
 .content{
     color:var(--grey);
     font-size: var(--headline-17) ;
+    margin-top:auto;
 }
 
 .content a{
