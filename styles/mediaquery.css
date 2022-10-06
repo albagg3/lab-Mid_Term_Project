@@ -7,7 +7,7 @@
     }
   }
 
-  @media screen and (max-width: 820px) {
+  @media screen and (max-width: 1024px) {
     .nav-center, .navbar-button, .card-img, .thumb-img, .amazon-logo, .sticker-size{
       display: none;
     }
@@ -24,7 +24,14 @@
       top:5px;
       right: 5px;
     }
-
+    .burger-menu{
+      
+      background-color: #C8C8C8;
+      position:absolute;
+      top:50px;
+      left:0;
+      right: 0;
+    }
 
     .first-sect-text h1{
       font-size:2.4em;
@@ -162,10 +169,30 @@
       margin:0px;
     }
     .my-form{
-      width:calc(100% - 20px)
+      width:calc(100% - 20px);
+      
     }
-    
+    .my-form h1, .center-btn{
+      text-align: center;
+    }
         
+
+    /* PROJECTS PAGE */
+    .flex-row{
+      display: flex;
+      flex-direction: column;
+      padding: 20px 20px;
+      
+  }
+    .flex-row h3, .flex-row p{
+      font-size:1.2em
+    }
+
+    .big-img, .definition{
+      padding: 20px 20px;
+    }
+
+
   }
 
 

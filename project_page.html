@@ -11,16 +11,16 @@
      <!-- BARRA DE NAVEGACION -->
   <nav class="navbar container" role="navigation" aria-label="main navigation">
     <div class="navbar-brand">
-      <a class="navbar-item logo" href="">
+      <a class="navbar-item logo" href="./index.html">
         <img src="./images/logos/circle.svg" width="60">
       </a>
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <a id="btn-hamburguesa" role="button" class="navbar-burger " aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </a>
     </div>
-    <div id="" class="nav-center">
+    <div id="menu-hamburguesa" class="nav-center  navbar-menu burger-menu">
       <a class="navbar-item" href="./index.html">
         Home
       </a>
@@ -40,6 +40,24 @@
     </div>
   </nav>
 
+<!-- MAIN PROJECT -->
+<section class="container">
+  <div class="first-sect-text center-btn">
+    <h1>Simplify</h1>
+  </div>
+  <div class="flex-row">
+    <h3>UI Design & App Development</h3>
+    <p>Completed on <span>2/2/22</span></p>
+  </div>
+  <div class="big-img">
+    <img src="./images/projects-section/1.jpg" alt="">
+  </div>
+  <div class="definition">
+    <p>Simplify is lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed feugiat faucibus sem, id vulputate justo ornare non. Nullam et vehicula sem. Pellentesque bibendum massa non nisl posuere cursus. Aliquam ac eros pretium neque consequat facilisis. Ut sit amet justo varius ex ultrices fringilla. Sed vel turpis fringilla ante gravida vestibulum. Etiam a sollicitudin leo. Nunc metus lectus, lacinia ut arcu quis, pretium congue lacus.
+
+      Aliquam blandit varius metus, in mattis orci convallis sit amet. Fusce et sem ac velit placerat ultrices in id dolor. Sed eget auctor metus. Sed suscipit fringilla lectus, a maximus justo bibendum a. Donec et pellentesque nisl, vitae tempus lorem. Sed efficitur cursus rhoncus. Duis placerat nisi quis mi tincidunt, sit amet tincidunt urna convallis. Nam et sagittis felis. Pellentesque placerat orci sodales nisi convallis ultrices. Nunc posuere neque eu mi imperdiet ullamcorper. Praesent tempor convallis rutrum. Vestibulum dignissim pellentesque eros in placerat. Etiam at nisi quis quam sollicitudin vehicula sit amet vel mi.</p>
+  </div>
+</section>
 
 <!--CARDS CON IMAGENES-->
 <section class="container projects-cards">
@@ -53,15 +71,15 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Simplify</p>
+                <p  id="title1" class="title is-4">Simplify</p>
               </div>
             </div>
-            <div class="content">
+            <div id="body1" class="content">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Phasellus nec iaculis mauris.
               <br>
-              <a href="./project_page.html">Learn more</a>
             </div>
+            <a href="./project_page.html">Learn more</a>
           </div>
         </div>
       </div>
@@ -73,15 +91,15 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Dashcoin</p>
+                <p id="title2" class="title is-4">Dashcoin</p>
               </div>
             </div>
-            <div class="content">
+            <div id="body2" class="content">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Phasellus nec iaculis mauris.
               <br>
-              <a>Learn more</a>
             </div>
+            <a href="./project_page.html">Learn more</a>
           </div>
         </div>
       </div>
@@ -93,15 +111,15 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Vectorify</p>
+                <p id="title3" class="title is-4">Vectorify</p>
               </div>
             </div>
-            <div class="content">
+            <div id="body3" class="content">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Phasellus nec iaculis mauris.
               <br>
-              <a>Learn more</a>
             </div>
+            <a href="./project_page.html">Learn more</a>
           </div>
         </div>
       </div>
@@ -154,6 +172,6 @@
       </div>
     </div>
   </footer>
-
+  <script src="./js/index.js"></script>
 </body>
 </html>

@@ -1,0 +1,29 @@
+.flex-row{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0;
+}
+
+.flex-row h3{
+    font-size: 2em;
+    color:var(--grey)
+
+}
+
+.flex-row p{
+    font-size: 1.3em;
+}
+.flex-row p span{
+    color:var(--grey)
+}
+
+.definition{
+    font-size: 1.5em;
+    padding: 50px 0;
+}
+
+.big-img img{
+    width: 100%;
+    height: 400px;
+    object-fit: cover;
+}

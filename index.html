@@ -16,20 +16,20 @@
       <a class="navbar-item logo" href="">
         <img src="./images/logos/circle.svg" width="60">
       </a>
-      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+      <a id="btn-hamburguesa" role="button" class="navbar-burger " aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
         <span aria-hidden="true"></span>
       </a>
     </div>
-    <div id="" class="nav-center">
-      <a class="navbar-item">
+    <div id="menu-hamburguesa" class="nav-center  navbar-menu burger-menu">
+      <a class="navbar-item" >
         Home
       </a>
-      <a class="navbar-item">
+      <a class="navbar-item" href="#projects">
         Projects
       </a>
-      <a class="navbar-item">
+      <a class="navbar-item" href="#services">
         Services
       </a>
     </div>
@@ -84,8 +84,8 @@
       </div>
     </div>
   </section>
-  <!--CARDS CON IMAGENES-->
-  <section class="container projects-cards">
+  <!--CARDS CON IMAGENES DE PROJECTS-->
+  <section id="projects" class="container projects-cards">
     <h3>Recent Projects</h3>
     <div class="columns is-multiline is-centered">
       <div class="column is-12-mobile is-4-desktop is-4">
@@ -96,15 +96,15 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Simplify</p>
+                <p id="title1" class="title is-4">Simplify</p>
               </div>
             </div>
-            <div class="content">
+            <div id="body1" class="content">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Phasellus nec iaculis mauris.
               <br>
-              <a href="./project_page.html">Learn more</a>
             </div>
+            <a href="./project_page.html">Learn more</a>
           </div>
         </div>
       </div>
@@ -116,15 +116,15 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Dashcoin</p>
+                <p id="title2" class="title is-4">Dashcoin</p>
               </div>
             </div>
-            <div class="content">
+            <div id="body2" class="content">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Phasellus nec iaculis mauris.
               <br>
-              <a>Learn more</a>
             </div>
+            <a href="./project_page.html">Learn more</a>
           </div>
         </div>
       </div>
@@ -136,15 +136,15 @@
           <div class="card-content">
             <div class="media">
               <div class="media-content">
-                <p class="title is-4">Vectorify</p>
+                <p id="title3" class="title is-4">Vectorify</p>
               </div>
             </div>
-            <div class="content">
+            <div id= "body3" class="content">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit.
               Phasellus nec iaculis mauris.
               <br>
-              <a>Learn more</a>
             </div>
+            <a href="./project_page.html">Learn more</a>
           </div>
         </div>
       </div>
@@ -153,7 +153,7 @@
   <!--IMAGEN CON STICKERS Y TEXTO -->
   <section class="testimony rel">
 
-    <div class="rel container-testimonial ">
+    <div class="rel container-testimonial">
 
       <div>
         <h3>Hear What Our Clients Have to Say</h3>
@@ -187,7 +187,7 @@
     </div>
   </section>
   <!--CARDS CON ICONOS-->
-  <section class="container projects-cards">
+  <section id="services" class="container projects-cards">
     <h3>Our Services</h3>
     <div class="columns">
       <div class="column service-column">
@@ -303,6 +303,9 @@
       </div>
     </div>
   </footer>
+
+
+  <script src="./js/index.js"></script>
 </body>
 
 </html>
